@@ -1,0 +1,23 @@
+{
+  "appDesc": {
+    "message": "Download Videos from the Web."
+  },
+  "youtube_datasize_panel": {
+    "message": "Show estimated data per quality on the watch page (below the player)"
+  },
+  "youtube_datasize_box_hdr_vod": {
+    "message": "Estimated size per quality (video + audio)"
+  },
+  "youtube_datasize_box_hdr_live": {
+    "message": "Estimated data use (live) — per hour"
+  },
+  "youtube_datasize_box_foot_vod": {
+    "message": "Duration: $1 — from player data (incl. typical audio)."
+  },
+  "youtube_datasize_box_foot_live": {
+    "message": "Approximate from stream bitrate; actual may vary."
+  },
+  "youtube_datasize_live_size": {
+    "message": "$1/hour"
+  }
+}

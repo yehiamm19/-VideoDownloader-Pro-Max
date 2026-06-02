@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Installed — Video DownloadHelper Pro Max</title>
+  <style>
+    :root {
+      --grad: linear-gradient(140deg, hsl(262 32% 12%) 0%, hsl(330 30% 14%) 45%, hsl(20 30% 12%) 100%);
+      --accent: hsl(331 100% 58%);
+      --accent2: hsl(20 100% 56%);
+      --glow: 0 0 80px hsl(330 100% 50% / 0.2);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Tahoma, "Rubik", system-ui, sans-serif;
+      background: var(--grad);
+      color: hsl(330 20% 96%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.25rem;
+    }
+    .card {
+      max-width: 32rem;
+      width: 100%;
+      background: linear-gradient(160deg, hsl(240 14% 11% / 0.95), hsl(280 12% 9% / 0.9));
+      border: 1px solid hsl(330 50% 45% / 0.28);
+      border-radius: 20px;
+      padding: 2.5rem 2rem 2rem;
+      box-shadow: var(--glow), 0 25px 50px hsl(0 0% 0% / 0.45);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 0%, hsl(330 100% 50% / 0.12), transparent 60%);
+      pointer-events: none;
+    }
+    .icon {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 1.25rem;
+      border-radius: 24px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      box-shadow: 0 12px 32px hsl(330 100% 45% / 0.35);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 800;
+      margin: 0 0 0.75rem;
+      line-height: 1.4;
+      background: linear-gradient(90deg, #fff, hsl(330 40% 92%));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p.lead {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: hsl(330 10% 78%);
+      margin: 0 0 1.5rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.4rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: hsl(145 50% 25% / 0.4);
+      color: hsl(145 60% 75%);
+      border: 1px solid hsl(145 45% 40% / 0.4);
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.9rem 1.75rem;
+      border-radius: 14px;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #1a0a12;
+      background: linear-gradient(135deg, var(--accent), #ff3d6b);
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 24px hsl(330 100% 45% / 0.3);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 12px 32px hsl(330 100% 50% / 0.4); }
+    .sig {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid hsl(0 0% 100% / 0.08);
+      font-size: 0.95rem;
+      color: hsl(330 8% 58%);
+    }
+    .sig strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+  </style>
+  <script type="module" src="install-welcome.js"></script>
+</head>
+<body>
+  <div class="card">
+    <div class="icon" aria-hidden="true">🎉</div>
+    <span class="badge">Pro Max — full unlock</span>
+    <h1>Extension installed successfully</h1>
+    <p class="lead">You now have <strong>all features</strong> for <strong>free</strong> — unlimited video downloads with no quality or usage caps. Enjoy.</p>
+    <a class="btn" id="vdh-install-continue" href="#" role="button">Continue</a>
+    <p class="sig">Built with care — <strong>Yehia</strong></p>
+  </div>
+</body>
+</html>
